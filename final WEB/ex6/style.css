@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 5px;
+}
+
+.bullet {
+  margin: 0 5px;
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}

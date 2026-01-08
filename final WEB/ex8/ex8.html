@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Newsletter Subscription</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Newsletter Subscription</h2>
+
+  <form id="subscribeForm">
+
+    <!-- Full Name -->
+    <label>Full Name</label>
+    <input type="text" id="fullName">
+
+    <!-- Email -->
+    <label>Email</label>
+    <input type="email" id="email">
+
+    <!-- Subscription Type -->
+    <label>Subscription Type</label>
+    <div class="options">
+      <input type="radio" name="plan" value="monthly"> Monthly
+      <input type="radio" name="plan" value="yearly"> Yearly
+    </div>
+
+    <!-- Interests -->
+    <label>Interests</label>
+    <div class="options">
+      <input type="checkbox" class="interest" value="tech"> Technology
+      <input type="checkbox" class="interest" value="business"> Business
+      <input type="checkbox" class="interest" value="design"> Design
+    </div>
+
+    <!-- Button -->
+    <button type="submit">Subscribe</button>
+
+    <!-- Result -->
+    <p id="result"></p>
+
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

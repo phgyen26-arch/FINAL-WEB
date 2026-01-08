@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Grade Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>
+    Student Grade Calculator &reg; – Rule § Average ≥ 5.0
+  </h2>
+
+  <table id="gradeTable">
+    <tr>
+      <th>Subject</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>Math</td>
+      <td><input type="number" class="grade" /></td>
+    </tr>
+    <tr>
+      <td>Physics</td>
+      <td><input type="number" class="grade" /></td>
+    </tr>
+    <tr>
+      <td>Chemistry</td>
+      <td><input type="number" class="grade" /></td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td><input type="number" class="grade" /></td>
+    </tr>
+  </table>
+
+  <button onclick="calculateAverage()">Calculate Average</button>
+
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

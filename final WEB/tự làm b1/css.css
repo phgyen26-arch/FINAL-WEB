@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+.form-container{
+
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column; /* Flexbox dọc */
+
+  background: white;
+  border-radius: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px;
+  background: #335b85;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Password strength */
+#passwordStrength {
+  font-size: 13px;
+  margin-bottom: 10px;
+}

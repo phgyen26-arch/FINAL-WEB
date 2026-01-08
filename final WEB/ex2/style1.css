@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+/* KẺ BẢNG */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+th, td {
+  border: 1px solid black; /* kẻ ô */
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+}

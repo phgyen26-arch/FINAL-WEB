@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabbed Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Product Information</h2>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('features')">
+      Features &reg; <span class="arrow">→</span>
+    </div>
+    <div class="tab" onclick="switchTab('pricing')">
+      Pricing € <span class="arrow">→</span>
+    </div>
+    <div class="tab" onclick="switchTab('reviews')">
+      Reviews <span class="arrow">→</span>
+    </div>
+    <div class="tab" onclick="switchTab('support')">
+      Support <span class="arrow">→</span>
+    </div>
+  </div>
+
+  <!-- Tab contents -->
+  <div class="tab-content active" id="features">
+    <p>✔ High performance<br>✔ Easy to use<br>✔ Secure</p>
+  </div>
+
+  <div class="tab-content" id="pricing">
+    <p>Basic: €10 / month<br>Pro: €25 / month</p>
+  </div>
+
+  <div class="tab-content" id="reviews">
+    <p>⭐ ⭐ ⭐ ⭐ ⭐ – Excellent product!</p>
+  </div>
+
+  <div class="tab-content" id="support">
+    <p>Email support & live chat available.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

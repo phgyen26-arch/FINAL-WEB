@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form id="registerForm" class="form-container">
+  <h2>User Registration</h2>
+
+  <label>Username</label>
+  <input type="text" id="username">
+  <small id="usernameError" class="error"></small>
+
+  <label>Password</label>
+  <input type="password" id="password">
+  <small id="passwordStrength"></small>
+
+  <label>Profile Picture</label>
+  <input type="file" id="profilePic">
+  <small id="imageError" class="error"></small>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
